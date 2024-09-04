@@ -1,0 +1,82 @@
+body {
+	background-color: hsl(47, 88%, 63%);
+	font-size: 16px;
+	font-family: 'Figtree', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+  }
+  
+  .card {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+	max-width: 272px;
+	padding: 16px;
+	margin-bottom: 16px;
+	position: relative; /* 让阴影可以相对于.card进行定位 */
+	box-shadow: 7px 7px 0px 0px black;
+	border: 1px solid black; 
+  }
+  
+  .card__image {
+	width: 100%;
+	border-radius: 10px;
+	max-height: 288px;
+	max-width: 288px;
+  }
+  
+  .card__tags {
+	padding-top: 16px;
+  }
+  
+  .tag--highlight {
+	background-color: hsl(47, 88%, 63%);
+	font-weight: 800;
+	font-size: 12px;
+	border-radius: 5px;
+	padding: 5px;
+  }
+  
+  .card__date {
+	color: hsl(0, 0%, 7%);
+	font-size: 0.85rem;
+  }
+  
+  .card__title {
+	font-family: 'Figtree', sans-serif;
+	font-size: 1.375rem;
+	font-weight: 800;
+  }
+  
+  .card__description {
+	font-size: 0.94rem;
+	font-family: 'Figtree', sans-serif;
+	font-weight: 500;
+	color: hsl(0, 0%, 42%);
+  }
+  
+  .author {
+	display: flex;
+	align-items: center; /* Vertically center content */
+	font-family: 'Figtree', sans-serif;
+	font-weight: 800;
+	margin-top: 16px;
+  }
+  
+  .author__avatar {
+	width: 30px;
+	margin-right: 10px; /* Space between image and text */
+  }
+  
+  .author__name {
+	font-size: 1rem;
+  }
+  
+  .attribution {
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Figtree', sans-serif;
+  }
+  
